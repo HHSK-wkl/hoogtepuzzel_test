@@ -306,13 +306,13 @@ def plot_profiel(params):
 
     # ICONEN PLAATSEN
     # Boom
-    draw_icon(ax, x0 + 6.5, hoogte_groen + 0.7, r"afbeeldingen\boom.png", zoom=0.1)
+    draw_icon(ax, x0 + 6.5, hoogte_groen + 0.7, r"afbeeldingen/boom.png", zoom=0.1)
 
     # Auto
-    draw_icon(ax, x0 + 10.5, hoogte_weg + 0.28, r"afbeeldingen\auto_fiets.png", zoom=0.08)
+    draw_icon(ax, x0 + 10.5, hoogte_weg + 0.28, r"afbeeldingen/auto_fiets.png", zoom=0.08)
 
     # Huis
-    draw_icon(ax, x0 + 15.5, vloerpeil + 0.5, r"afbeeldingen\huis.png", zoom=0.1)
+    draw_icon(ax, x0 + 15.5, vloerpeil + 0.5, r"afbeeldingen/huis.png", zoom=0.1)
 
     # As-instellingen
     ymin = min(flex_onder, hoogte_groen, hoogte_weg, vloerpeil) - 1
